@@ -2342,7 +2342,7 @@ body {
   background-position: 0 25%;
   background-size: cover;
   max-width: 2000px;
-  height: 60vh;
+  height: 57vh;
   max-height: 1500px;
   margin-left: auto;
   margin-right: auto;
@@ -3760,7 +3760,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .navbar {
-    height: 60vh;
+    height: 57vh;
   }
 
   .services-card {
@@ -3778,7 +3778,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   .navbar {
-    height: 60vh;
+    height: 57vh;
   }
 
   .h1.mainh1 {
