@@ -2441,7 +2441,7 @@ body {
   display: flex;
 }
 
-.morningside-text {
+.elykia-text {
   font-size: 20px;
   font-weight: 500;
 }
@@ -4140,7 +4140,7 @@ body {
     margin-right: 0%;
   }
 
-  .morningside-logo {
+  .elykia-logo {
     height: 60px;
   }
 
@@ -4442,7 +4442,7 @@ body {
     margin-top: 40px;
   }
 
-  .morningside-logo {
+  .elykia-logo {
     margin-left: 0;
     margin-right: 0;
   }
