@@ -90,55 +90,14 @@
                 </div>
             </div>
             <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
-        </div>
-        <div class="w-layout-blockcontainer container w-container" style="background-color: black;"
-            bis_skin_checked="1">
-            <div style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                class="hero-box" bis_skin_checked="1">
-                <div id="w-node-_9da753b1-3363-aa89-00d9-9b6bd11f6578-3a1b43b1"
-                    class="w-layout-layout contact-grid wf-layout-layout" bis_skin_checked="1">
-                    <div id="w-node-_9da753b1-3363-aa89-00d9-9b6bd11f6579-3a1b43b1" class="w-layout-cell"
-                        bis_skin_checked="1">
-                        <h2 class="h2" style="color: white;">EL FUTURO <span style="color:#7C6C77">ESPERA</span></h2>
-                        <div class="text margin-top" bis_skin_checked="1" style="color: white;">La inteligencia artificial es una herramienta poderosa para llevar tu empresa al siguiente nivel. Al integrar IA, optimizarás operaciones, reducirás costos y aumentarás la productividad. No es solo una inversión en tecnología, sino en el futuro de tu negocio. Aprovecha esta oportunidad para liderar tu industria y maximizar resultados.<br/><br/> Si tenes preguntas o simplemente queres informarte sobre lo que hacemos, no dudes en ponerte en contacto con nosotros. En Elykia estamos a su disposición para guiarlo y ayudarlo</div>
-                    </div>
-                    <div id="w-node-_9da753b1-3363-aa89-00d9-9b6bd11f657e-3a1b43b1"
-                        class="w-layout-cell button-cell-top-right" bis_skin_checked="1">
-                        <div id="Contact-Us-Form-Block" class="contact-form w-form" bis_skin_checked="1">
-                            <form id="email-form" name="email-form" data-name="Email Form" method="get"
-                                data-wf-page-id="65430b72be7e2fb23a1b43b1"
-                                data-wf-element-id="7478523f-60b6-d99f-17cd-66b9de0ab7a6" aria-label="Email Form"><input
-                                    class="text-field w-input" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;" maxlength="256" name="Asunto" data-name="Asunto"
-                                    placeholder="Asunto" type="text" id="asunto" required="">
-                                <div class="horizontal-div" bis_skin_checked="1"><input class="text-field w-input"
-                                        maxlength="256" name="nombre" data-name="Nombre" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;"placeholder="Nombre" type="text"
-                                        id="nombre" required=""><input class="text-field w-input" maxlength="256"
-                                        name="email" data-name="Email" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;" placeholder="Email" type="email" id="email"
-                                        required=""></div>
-                                <div class="contact-form-text" bis_skin_checked="1"><strong>Cual es tu presupuesto para este proyecto?</strong></div><select id="budget" name="Budget" data-name="Budget"
-                                    required="" class="text-field dropdown w-select" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;">
-                                    <option style="background-color: black" value="less than $5,000">Menos de $1,000</option>
-                                    <option style="background-color: black" value="$5,000 - $10,000">$1,000 - $5,000</option>
-                                    <option style="background-color: black" value="$10,000 - $20,000">$5,000 - $10,000</option>
-                                    <option style="background-color: black" value="$20,000 - $40,000">$10,000 - $20,000</option>
-                                    <option style="background-color: black" value="$40,000 +">$20,000 +</option>
-                                </select><textarea id="description" name="How-can-we-help" maxlength="5000"
-                                    data-name="How can we help?" placeholder="Como podemos ayudarte?" required=""
-                                    class="text-field large w-input" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;"></textarea><input type="submit"
-                                    data-wait="Please wait..." id="submit" class="form-button w-button contact-button" style="background-color: white; color: black;margin-left: 0;" value="Send">
-                            </form>
-                            <div class="w-form-done" tabindex="-1" role="region" aria-label="Email Form success"
-                                bis_skin_checked="1">
-                                <div bis_skin_checked="1">Thank you! Your submission has been received!</div>
-                            </div>
-                            <div class="w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure"
-                                bis_skin_checked="1">
-                                <div bis_skin_checked="1">Oops! Something went wrong while submitting the form.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            
+
+            
+
+
+
+
         </div>
     </div>
 </body>
