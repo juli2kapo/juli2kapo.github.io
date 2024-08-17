@@ -144,6 +144,115 @@
             background-color: #444;
             color: #fff;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @import "compass";
+ .parent-container {
+	 padding: 0 20px 0 20px;
+	 max-width: 800px;
+	 width: 100%;
+}
+ .faq {
+	 list-style: none;
+	 padding-left: 40px;
+	 padding-right: 20px;
+}
+ .faq li {
+	 border-bottom: 1px solid white;
+	 margin-bottom: 15px;
+}
+ .faq li.active .answer {
+	 max-height: 275px !important;
+	 padding-bottom: 25px;
+	 transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+}
+ .faq li.active .question {
+	 color: #808080;
+	 transition: color 0.5s ease;
+}
+ .faq .answer {
+	 color: white;
+	 font-family: serif;
+	 font-size: 16px;
+	 line-height: 24px;
+	 max-height: 0;
+	 overflow: hidden;
+	 transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+}
+ .faq .plus-minus-toggle {
+    color: white;
+	 cursor: pointer;
+	 height: 21px;
+	 position: absolute;
+	 width: 21px;
+	 left: -40px;
+	 top: 50%;
+	 z-index: 2;
+}
+ .faq .plus-minus-toggle:before, .faq .plus-minus-toggle:after {
+	 background: white;
+	 content: '';
+	 height: 5px;
+	 left: 0;
+	 position: absolute;
+	 top: 0;
+	 width: 21px;
+	 transition: transform 500ms ease;
+}
+ .faq .plus-minus-toggle:after {
+	 transform-origin: center;
+}
+ .faq .plus-minus-toggle.collapsed:after {
+	 transform: rotate(90deg);
+}
+ .faq .plus-minus-toggle.collapsed:before {
+	 transform: rotate(180deg);
+}
+ .faq .question {
+	 color: white;
+	 font-family: sans-serif;
+	 font-size: 20px;
+	 font-weight: 800;
+	 text-transform: uppercase;
+	 position: relative;
+	 cursor: pointer;
+	 padding: 20px 0;
+	 transition: color 0.5s ease;
+}
+ /* @media screen and ("max-width:767px") {
+	 .faq .question {
+		 font-size: 18px;
+	}
+} */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
     </style>
     <meta charset="utf-8" />
     <title>Elykia</title>
@@ -154,10 +263,14 @@
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
     <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TVQW3PJV"></script>
     <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
         media="all" />
+    
     <script type="text/javascript">
         WebFont.load({
             google: {
@@ -346,6 +459,7 @@
     
             <!-- How It Works Section -->
             <div class="how-it-works">
+                
                 <h2 class="section-heading" style="background-color: white;color: black; padding-bottom: 10vh;">¿Por que trabajar con nosotros?</h2>
                 <!-- <p class="section-subheading" style="color: black;">A seamless process from start to finish.</p> -->
                 <!-- <p class="product-description" style="color:black">
@@ -391,12 +505,65 @@
     
             <!-- Testimonials Section -->
             <div class="testimonials">
-                <h2 class="section-heading">What Our Clients Say</h2>
-                <p class="section-subheading">Don't just take our word for it.</p>
-                <div class="testimonial-item">
+                <h2 class="section-heading">Preguntas frecuentes</h2>
+                <!-- <p class="section-subheading">R.</p> -->
+                <div style="display: flex; flex-direction: row; justify-content: space-around;padding-left: 3vw; padding-right: 5vw;">
+                
+                <div class="parent-container">
+                    <ul class="faq">
+                        <li>
+                            <h3 class="question">¿Que ofrece exactamente el servicio de IA conversacional?
+                              <div class="plus-minus-toggle collapsed"></div>
+                            </h3>
+                            <div class="answer">Proporcionamos una infraestructura diseñada específicamente según tus necesidades para la conversión de clientes. Esto incluye el desarollo e integracion de nuestra IA la cual es capaz de llamar o recibir llamadas y gestionar SMS y/o mails para automatizar la programación de citas y seguimiento.</div>
+                          </li>
+                      <li>
+                        <h3 class="question">¿Como se gestionan las llamadas en frio?
+                          <div class="plus-minus-toggle collapsed"></div>
+                        </h3>
+                        <div class="answer">Eficientemente. Nuestra IA puede realizar miles de llamadas en frio siguiendo cualquier guión y criterios específicos.</div>
+                      </li>
+                      <li>
+                        <h3 class="question">¿Es realmente la IA capaz de reducir la tasa de inasistencia de mis clientes?
+                          <div class="plus-minus-toggle collapsed"></div>
+                        </h3>
+                        <div class="answer">Sí. Nuestra IA envía recordatorios periódicos y puede reprogramar citas.</div>
+                      </li>
+                      <li>
+                        <h3 class="question">¿Que tan rapido es capaz la IA de responder a clientes?
+                          <div class="plus-minus-toggle collapsed"></div>
+                        </h3>
+                        <div class="answer">Instantáneamente. Nuestra IA atiende llamadas y mensajes 24/7, en cuestión de segundos.</div>
+                      </li>
+                      <li>
+                        <h3 class="question">¿Como se integra su servicio con embudos de mercado ya existentes?
+                          <div class="plus-minus-toggle collapsed"></div>
+                        </h3>
+                        <div class="answer">Cuando un posible prospecto ve un anuncio y expresa interes explicito nuestra IA puede automaticamente realizar una llamada para discutir sobre el producto y agendar una reunion</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- <div class="parent-container">
+                    <ul class="faq">
+                      <li>
+                        <h3 class="question">¿Que ofrece exactamente nuestro servicio?
+                          <div class="plus-minus-toggle collapsed"></div>
+                        </h3>
+                        <div class="answer">Proporcionamos una infraestructura diseñada específicamente según tus necesidades para la conversión de clientes. Desarrollamos e integramos IA capaces de llamar o recibir llamadas, y gestionar SMS y mails para automatizar la programación de citas y seguimiento.</div>
+                      </li>
+                      <li>
+                        <h3 class="question">¿Que tan rapido es capaz la IA de responder a clientes?
+                          <div class="plus-minus-toggle collapsed"></div>
+                        </h3>
+                        <div class="answer">Instantáneamente. Nuestra IA atiende clientes 24/7, en cuestión de segundos.</div>
+                      </li>
+                    </ul>
+                  </div> -->
+                </div>
+                <!-- <div class="testimonial-item">
                     "Elykia has transformed our business. The efficiency and ease of use are unparalleled. We can't
                     imagine going back to the old way of doing things."
-                </div>
+                </div> -->
                 <div class="testimonial-item">
                     "The project management tools have been a game changer for us. Our team is more aligned and
                     productive than ever before."
@@ -405,9 +572,9 @@
     
             <!-- Call to Action Section -->
             <div class="cta-section">
-                <h2 class="section-heading">Ready to Get Started?</h2>
-                <p class="section-subheading">Join thousands of businesses who are already benefiting from Elykia.</p>
-                <button class="cta-button">Contact Us Today</button>
+                <h2 class="section-heading">Queres saber mas?</h2>
+                <!-- <p class="section-subheading">Join thousands of businesses who are already benefiting from Elykia.</p> -->
+                <button class="cta-button">Contactanos</button>
             </div>
             
 
