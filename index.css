@@ -2982,12 +2982,13 @@ body {
 }
 
 .footer {
-  background-image: radial-gradient(circle, rgba(3, 132, 85, 0.24), #000),
-    url("https://cdn.prod.website-files.com/6542f11fb6b9075af9ae67ed/6542f1b0a5d7b6ce1802b7d0_background.png");
-  background-position: 0 0, 0 0;
-  background-size: auto, auto;
+  background-image: url("Images/nav-bg.png");
+  background-size: cover;
+  /* background-position: 0 0, 0 0; */
+  background-position: 0 18%;
+  background-size: cover;
   height: 200px;
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 
 .footer-left-div {
@@ -3064,27 +3065,6 @@ body {
   margin-top: 431px;
 }
 
-.cms-card {
-  background-color: #000;
-  background-image: radial-gradient(circle, rgba(0, 0, 0, 0), #000),
-    url("https://cdn.prod.website-files.com/6542f11fb6b9075af9ae67ed/6545b3417af7b0930bd2d8d8_image%2028.png");
-  background-position: 0 0, 50% 100%;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, contain;
-  border: 2px solid #000;
-  border-radius: 8px;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 400px;
-  margin: 0;
-  padding: 15px;
-  transition: transform 0.2s;
-  display: flex;
-}
-
-.cms-card:hover {
-  border: 2px solid #189d6d;
-}
 
 .text-small {
   font-size: 12px;
@@ -3223,7 +3203,7 @@ body {
   display: flex;
 }
 
-.tab {
+/* .tab {
   border: 2px solid rgba(0, 0, 0, 0);
   border-radius: 8px;
   width: 30%;
@@ -3241,9 +3221,9 @@ body {
 .tab.w--current {
   border: 2px solid #189d6d;
   transform: scale(1.05) translate(0, -5px);
-}
+} */
 
-.tab.card1 {
+/* .tab.card1 {
   background-image: linear-gradient(rgba(255, 255, 255, 0.85),
       rgba(255, 255, 255, 0.85)),
     url("https://cdn.prod.website-files.com/6542f11fb6b9075af9ae67ed/6545a6476464c3cb6a21c098_image%2030%20(1).png");
@@ -3280,7 +3260,7 @@ body {
 
 .tab.card3.w--current {
   border-color: #189d6d;
-}
+} */
 
 .h2 {
   text-transform: uppercase;
@@ -3419,13 +3399,6 @@ body {
 .collection-list {
   margin-left: 0;
   margin-right: 0;
-}
-
-.cms-card-big {
-  height: 400px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 15px;
 }
 
 ._40 {
