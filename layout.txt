@@ -6,7 +6,7 @@
     </style>
     <meta charset="utf-8" />
     <title>Elykia</title>
-    <link rel="icon" type="image/png" href="Untitled.jpg">
+    <link rel="icon" type="image/png" href="Images/icon.jpg">
     <meta content="Elykia" property="og:title" />
     <link href="index.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
