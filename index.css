@@ -503,7 +503,8 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
-  padding-left: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .w-list-unstyled {
@@ -2525,13 +2526,13 @@ body {
 }
 
 .green {
-  color: #189d6d;
+  color: white;
 }
 
 .button-2 {
   color: #fff;
   text-align: center;
-  background-color: #189d6d;
+  background-color: white;
   border: 1px solid #189d6d;
   border-radius: 8px;
   justify-content: center;
@@ -2578,8 +2579,8 @@ body {
 
 .button-3:hover {
   color: #fff;
-  background-color: #189d6d;
-  border-color: #189d6d;
+  background-color: white;
+  border-color: white;
 }
 
 .button-3._50 {
@@ -2703,7 +2704,7 @@ body {
 }
 
 .h3.green {
-  color: #189d6d;
+  color: white;
   font-size: 22px;
   font-weight: 600;
 }
@@ -2815,7 +2816,7 @@ body {
 
 .services-card.card-2:hover {
   border-width: 2px;
-  border-color: #189d6d;
+  border-color: white;
 }
 
 .services-card.card-3 {
@@ -2833,7 +2834,7 @@ body {
 
 .services-card.card-3:hover {
   border-width: 2px;
-  border-color: #189d6d;
+  border-color: white;
 }
 
 .services-card-number-div {
@@ -2874,7 +2875,7 @@ body {
 }
 
 .div-block-2 {
-  background-color: #189d6d;
+  background-color: white;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
@@ -2922,7 +2923,7 @@ body {
 }
 
 .blog-small-div:hover {
-  border-color: #189d6d;
+  border-color: white;
 }
 
 .div-block-3 {
@@ -2989,7 +2990,7 @@ body {
 }
 
 .footer-link:hover {
-  color: #189d6d;
+  color: white;
 }
 
 .footer-link.hidden {
@@ -3033,7 +3034,7 @@ body {
 }
 
 .footer-text.green {
-  color: #189d6d;
+  color: white;
   font-weight: 500;
 }
 
@@ -3104,7 +3105,7 @@ body {
 }
 
 .div-block-7 {
-  background-color: #189d6d;
+  background-color: white;
   border-radius: 30px;
   width: 8px;
   height: 8px;
@@ -3141,8 +3142,8 @@ body {
 }
 
 .blog-button:hover {
-  background-color: #189d6d;
-  border-color: #189d6d;
+  background-color: white;
+  border-color: white;
   transform: translate(0, -3px);
 }
 
@@ -3274,11 +3275,11 @@ body {
 
 .tab.card3:hover {
   border-style: solid;
-  border-color: #189d6d;
+  border-color: white;
 }
 
 .tab.card3.w--current {
-  border-color: #189d6d;
+  border-color: white;
 } */
 
 .h2 {
@@ -3377,7 +3378,7 @@ body {
 }
 
 .form-button {
-  background-color: #189d6d;
+  background-color: white;
   border-radius: 10px;
   width: 100%;
   margin-top: 20px;
@@ -3391,7 +3392,7 @@ body {
 }
 
 .menu-icon {
-  color: #189d6d;
+  color: white;
 }
 
 .section.services {
@@ -3592,7 +3593,7 @@ body {
 }
 
 .careers-page-div:hover {
-  border-color: #189d6d;
+  border-color: white;
 }
 
 .careers-empty-state {
@@ -3930,7 +3931,7 @@ body {
 
   .button.mobile {
     color: #fff;
-    background-color: #189d6d;
+    background-color: white;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 20px;
@@ -4107,7 +4108,7 @@ body {
   }
 
   .menu-button {
-    color: #189d6d;
+    color: white;
     padding: 0;
     display: block;
   }
@@ -4383,7 +4384,7 @@ body {
   }
 
   .tab.card3.w--current {
-    border-color: #189d6d;
+    border-color: white;
   }
 
   .services-individual-box {
@@ -4642,7 +4643,7 @@ body {
   }
 
   .menu-icon {
-    color: #189d6d;
+    color: white;
   }
 
   .nav-image {
@@ -4784,5 +4785,13 @@ body {
 @media screen and (max-width: 770px) {
   .div-block-5 {
       margin-left: 0px;
+  }
+}
+
+
+
+@media screen and (max-width: 770px){
+  .nav-text {
+    font-size: 20px;
   }
 }

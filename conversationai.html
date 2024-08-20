@@ -3,6 +3,12 @@
         .wf-force-outline-none[tabindex="-1"]:focus {
             outline: none;
         }
+
+        .card-list {
+            row-gap: 4vh; justify-content: space-around; margin-left: 5vw; margin-right: 5vw; margin-top: 15vh;
+            display: flex;
+            flex-direction: row;
+        }
         .product-section {
             padding: 1px 1px;
             background-color: #000;
@@ -11,6 +17,14 @@
         }
         .product-text{
             font-size:16px;
+        }
+        .feature-item {
+            font-size: 16px;
+            /* margin-bottom: 20px; */
+            margin-bottom: 3vh;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
         }
         .details-card{
             border: 3px solid white;
@@ -26,45 +40,6 @@
             max-height: 50vh;
             max-width: 25vw;
         }
-
-        @media screen and (max-width: 1500px) {
-            .details-card{
-                max-height: 50vh;
-                min-height: 50vh;
-            }
-            
-        }
-        @media screen and (max-width: 1250px) {
-            .details-card{
-                max-height: 60vh;
-                min-height: 60vh;
-            }
-        }
-        @media screen and (max-width: 1000px) {
-            .details-card{
-                max-height: 65vh;
-                min-height: 65vh;
-            }
-            .product-text {
-            font-size: 12px;
-            }
-        }
-        @media screen and (max-width: 800px) {
-            .details-card{
-                max-height: 55vh;
-                min-height: 55vh;
-            }
-            .feature-item {
-            font-size: 12px;
-            }
-        }
-
-
-
-        .details-card h3{
-            margin-bottom: 3vh;
-        }
-
         .product-heading {
             font-size: 48px;
             font-weight: 900;
@@ -80,6 +55,84 @@
             color: #aaa;
         }
 
+        @media screen and (min-width: 1500px) {
+            .details-card{
+                max-height: 50vh;
+                min-height: 50vh;
+            }
+            
+        }
+        @media screen and (min-width: 1250px) {
+            .details-card{
+                max-height: 60vh;
+                min-height: 60vh;
+            }
+        }
+        @media screen and (min-width: 1000px) {
+            .details-card{
+                max-height: 65vh;
+                min-height: 65vh;
+            }
+            .product-text {
+            font-size: 12px;
+            }
+        }
+        @media screen and (max-width: 800px) {
+            .details-card{
+                max-height: 80vh;
+                min-height: 80vh;
+            }
+            .feature-item {
+                font-size: 12px;
+                margin-bottom: 3vh;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .details-card {
+                min-width: none;
+                max-width: none;
+            }
+            .feature-item {
+                font-size: 12px;
+                margin-bottom: 3vh;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
+            .card-list {
+                flex-direction: column;
+            }
+            .product-heading {
+            font-size: 20px;
+            font-weight: 900;
+            margin-bottom: 30px;
+            color: #fff;
+            text-transform: uppercase;
+            }
+            .product-subheading {
+                font-size: 17px;
+                font-weight: 300;
+                margin-bottom: 50px;
+                color: #aaa;
+            }
+
+        }
+
+
+        .details-card h3{
+            margin-bottom: 3vh;
+        }
+
+        
+
+        
         .product-description {
             font-size: 20px;
             line-height: 1.8;
@@ -107,13 +160,11 @@
             color: #ddd;
         }
 
-        .feature-item {
-            font-size: 16px;
-            /* margin-bottom: 20px; */
-            margin-bottom: 3vh;
-            display: flex;
-            align-items: center;
-        }
+        
+
+
+
+
         .feature-icon {
             width: 30px;
             height: 30px;
@@ -181,24 +232,7 @@
             background-color: #444;
             color: #fff;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        @import "compass";
+@import "compass";
  .parent-container {
 	 padding: 0 20px 0 20px;
 	 max-width: 800px;
@@ -273,27 +307,9 @@
 	 padding: 20px 0;
 	 transition: color 0.5s ease;
 }
- /* @media screen and ("max-width:767px") {
-	 .faq .question {
-		 font-size: 18px;
-	}
-} */
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
     </style>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
     <title>Elykia</title>
     <link rel="icon" type="image/png" href="Images/icon.jpg">
     <meta content="Elykia" property="og:title" />
@@ -366,7 +382,7 @@
                     <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M11 9.6L18.9 1.7C19.3 1.3 19.3 0.7 18.9 0.3C18.5 -0.1 17.9 -0.1 17.5 0.3L9.6 8.2L1.7 0.3C1.3 -0.1 0.7 -0.1 0.3 0.3C-0.1 0.7 -0.1 1.3 0.3 1.7L8.2 9.6L0.3 17.5C-0.1 17.9 -0.1 18.5 0.3 18.9C0.5 19.1 0.8 19.2 1 19.2C1.2 19.2 1.5 19.1 1.7 18.9L9.6 11L17.5 18.9C17.7 19.1 18 19.2 18.2 19.2C18.4 19.2 18.7 19.1 18.9 18.9C19.3 18.5 19.3 17.9 18.9 17.5L11 9.6Z"
-                        fill="#189D6D"></path>
+                        fill="white"></path>
                     </svg>
                   </div>
                 </a>
@@ -398,7 +414,10 @@
                   <div class="nav-text">C</div>
                   <div class="circle"></div>
                 </a> -->
-                <a href="/contact" class="button mobile w-button" style="background-color: white;color: black; font-size: 30px;padding: 3%;margin-left: 20%;margin-right: 20%;">Contactanos</a>
+                <div class="button mobile w-button nav-text" style="background-color: white;color: black;padding: 3%;">
+                    <a href="/contact"class="nav-text" style="color: black;text-decoration: none;" >Contactanos</a>
+                  </div>
+    
               </nav>
             </div>
           </div>
@@ -427,7 +446,7 @@
                     enhance collaboration, and foster growth. Our cutting-edge platform integrates seamlessly with
                     your existing workflows, offering a user-friendly experience that drives efficiency and success.
                 </p>     -->
-                <div class="horizontal-div" style="row-gap: 4vh; justify-content: space-around; margin-left: 5vw; margin-right: 5vw; margin-top: 15vh;">
+                <div class="card-list">
                     <div class="details-card">
                         <h3>Rotación de personal</h3>
                         <ul class="features-list">
@@ -510,45 +529,38 @@
                     setup. With our automated processes and real-time updates, you'll always be on top of your tasks
                     and projects. It's the all-in-one solution you've been waiting for.
                 </p> -->
-                <div style="display: flex; flex-direction: row;column-gap: 20vw; justify-content: space-around;padding-left: 3vw; padding-right: 5vw;">
-                    <div style="display: flex; flex-direction: column;">
-                        <ul class="features-list">
-                            <li class="feature-item">
-                                <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
-                                <span style="color: black; font-size: 18px;font-weight:500;">Nuestra prioridad es hacer crecer tu negocio, no hacer software.</span>
-                            </li>
-                            <li class="feature-item">
-                                <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
-                                <span style="color: black; font-size: 18px;font-weight:500;">Servicio hecho para vos. Nos decís que necesitas y nosotros lo hacemos.</span>
-                            </li>
-                            <li class="feature-item">
-                                <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
-                                <span style="color: black;font-size: 18px;font-weight:500;">Habilidad de manejar más de 100.000 llamadas al día.</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <ul class="features-list">
-                            <li class="feature-item">
-                                <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
-                                <span style="color: black;font-size: 18px;font-weight:500;">Soporte 24/7 y asistencia para todas tus necesidades.</span>
-                            </li>
-                            <li class="feature-item">
-                                <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
-                                <span style="color: black;font-size: 18px;font-weight:500;">Vas a ahorrar horas en entrada de datos y reducir errores.</span>
-                            </li>
-                            <li class="feature-item">
-                                <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
-                                <span style="color: black;font-size: 18px;font-weight:500;">Enfoque multicanal (Voz, Email, SMS, Whatsapp, etc.)</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                
+                <ul style="display:grid;grid-template-columns: repeat(2, 1fr);margin-top: 6vh;margin-bottom: 10vh;justify-content: start;justify-items: start;align-items: start;gap: 0% 20vw; " >
+                    <li class="feature-item">
+                        <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
+                        <span style="color: black; font-size: 18px;font-weight:500;">Nuestra prioridad es hacer crecer tu negocio, no hacer software.</span>
+                    </li>
+                    <li class="feature-item">
+                        <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
+                        <span style="color: black;font-size: 18px;font-weight:500;">Soporte 24/7 y asistencia para todas tus necesidades.</span>
+                    </li>
+                    <li class="feature-item">
+                        <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
+                        <span style="color: black; font-size: 18px;font-weight:500;">Servicio hecho para vos. Nos decís que necesitas y nosotros lo hacemos.</span>
+                    </li>
+                    <li class="feature-item">
+                        <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
+                        <span style="color: black;font-size: 18px;font-weight:500;">Vas a ahorrar horas en entrada de datos y reducir errores.</span>
+                    </li>
+                    <li class="feature-item">
+                        <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
+                        <span style="color: black;font-size: 18px;font-weight:500;">Habilidad de manejar más de 100.000 llamadas al día.</span>
+                    </li>
+                    <li class="feature-item">
+                        <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
+                        <span style="color: black;font-size: 18px;font-weight:500;">Enfoque multicanal (Voz, Email, SMS, Whatsapp, etc.)</span>
+                    </li>
+                </ul>
             </div>
     
             <!-- Testimonials Section -->
             <div class="testimonials">
-                <h2 class="section-heading">Preguntas frecuentes</h2>
+                <h2 class="section-heading" style="color: white;">Preguntas frecuentes</h2>
                 <!-- <p class="section-subheading">R.</p> -->
                 <div style="display: flex; flex-direction: row; justify-content: space-around;padding-left: 3vw; padding-right: 5vw;">
                 
@@ -617,7 +629,10 @@
             <div class="cta-section" style="display: flex; flex-direction: column; justify-items: center;justify-content: center;">
                 <h2 class="section-heading">Querés saber más?</h2>
                 <!-- <p class="section-subheading">Join thousands of businesses who are already benefiting from Elykia.</p> -->
-                <a href="/contact" class="nav-link contact-button" style="width: 20%;margin-left: auto;margin-right: auto;background-color: #000;color: white;">Contactanos</a>
+                 <div style="margin-left: auto;margin-right: auto;">
+                    <a href="/contact" class="nav-link contact-button" style="background-color: #000;color: white;">Contactanos</a>
+                 </div>
+                
             </div>
             
 
