@@ -115,14 +115,30 @@
                                         id="nombre" required=""><input class="text-field w-input" maxlength="256"
                                         name="email" data-name="Email" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;" placeholder="Email" type="email" id="email"
                                         required=""></div>
-                                <div class="contact-form-text" bis_skin_checked="1"><strong>Cual es tu presupuesto para este proyecto?</strong></div><select id="budget" name="Budget" data-name="Budget"
+                                <div class="contact-form-text" bis_skin_checked="1"><strong>Cual es tu presupuesto para este proyecto?</strong></div>
+                                <select id="budget" name="Budget" data-name="Budget"
                                     required="" class="text-field dropdown w-select" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;">
                                     <option style="background-color: black" value="less than $5,000">Menos de $1,000</option>
                                     <option style="background-color: black" value="$5,000 - $10,000">$1,000 - $5,000</option>
                                     <option style="background-color: black" value="$10,000 - $20,000">$5,000 - $10,000</option>
                                     <option style="background-color: black" value="$20,000 - $40,000">$10,000 - $20,000</option>
                                     <option style="background-color: black" value="$40,000 +">$20,000 +</option>
-                                </select><textarea id="description" name="How-can-we-help" maxlength="5000"
+                                </select>
+                                <div class="contact-form-text" bis_skin_checked="1"><strong>Que servicio te interesa?</strong></div>
+                                <select id="budget" name="Budget" data-name="Budget"
+                                    required="" class="text-field dropdown w-select" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;">
+                                    <option style="background-color: black" value="conversationai">IA Conversacional</option>
+                                    <option style="background-color: black" value="chatbot">Desarrollo de chatbots</option>
+                                    <option style="background-color: black" value="consult">Consultoria empresarial</option>
+                                    <option style="background-color: black" value="chat">Solo quiero charlar</option>
+                                </select>
+                                
+                                <div class="contact-form-text" bis_skin_checked="1"><strong>A que rubro pertenece tu organizacion?</strong></div>
+                                <input class="text-field w-input" maxlength="256"
+                                        name="rubro" data-name="rubro" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;margin-bottom: 3vh;" placeholder="Rubro" type="text" id="rubro"
+                                        required=""/>
+
+                                <textarea id="description" name="How-can-we-help" maxlength="5000"
                                     data-name="How can we help?" placeholder="Como podemos ayudarte?" required=""
                                     class="text-field large w-input" style="border: 1px solid #ccc;border-radius: 10px;color: white; font-weight: bold;"></textarea><input type="submit"
                                     data-wait="Please wait..." id="submit" class="form-button w-button contact-button" style="background-color: white; color: black;margin-left: 0;" value="Send">
