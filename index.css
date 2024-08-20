@@ -1775,6 +1775,9 @@ textarea.w-select {
 }
 
 @media (min-width: 768px) {
+  .div-block-5 {
+    margin-left: 0px;
+  }
   .w-lightbox-content {
     height: 96vh;
     margin-top: 2vh;
@@ -4681,9 +4684,9 @@ body {
 }
 
 @media screen and (max-width: 400px){
-  .navbar {
+  /* .navbar {
     height: 20vh !important;
-  }
+  } */
   
 }
 
@@ -4770,5 +4773,10 @@ body {
   }
   .mainh1 {
     margin-bottom: 2vh;
+  }
+}
+@media (min-width: 768px) {
+  .div-block-5 {
+    margin-left: 0px;
   }
 }
