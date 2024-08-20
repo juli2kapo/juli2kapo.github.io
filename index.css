@@ -8,6 +8,9 @@ html {
 body {
   margin: 0;
 }
+.color-white{
+  color:white;
+}
 
 article,
 aside,
@@ -3376,7 +3379,7 @@ body {
 }
 
 .section.services {
-  background-color: #f0f0f0;
+  background-color: #000;
 }
 
 .nav-image {
@@ -3881,7 +3884,7 @@ body {
   }
 
   .section.services {
-    background-color: #f0f0f0;
+    background-color: #000;
   }
 
   .section.pppages,
