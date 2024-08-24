@@ -22,15 +22,10 @@
             font-size: 16px;
             /* margin-bottom: 20px; */
             margin-bottom: 3vh;
-            
             display: flex;
             justify-content: flex-start; /* Aligns items at the start horizontally */
             align-items: center; /* Centers items vertically */
             text-align: start;
-            /* align-items: start; */
-            /* justify-content: center; */
-            /* text-align: center; */
-            /* text-align: start; */
             flex-direction: row;
         }
         .details-card{
@@ -58,7 +53,7 @@
         .product-subheading {
             font-size: 24px;
             font-weight: 300;
-            margin-bottom: 50px;
+            margin-bottom: 1vh;
             color: #aaa;
         }
 
@@ -92,10 +87,8 @@
             .feature-item {
                 font-size: 12px;
                 margin-bottom: 3vh;
-                justify-content: flex-start; /* Aligns items at the start horizontally */
-                align-items: center; /* Centers items vertically */
-                text-align: start;
                 display: flex;
+                align-items: center;
                 flex-direction: column;
                 text-align: center;
             }
@@ -111,9 +104,7 @@
                 font-size: 12px;
                 margin-bottom: 3vh;
                 display: flex;
-                justify-content: flex-start; /* Aligns items at the start horizontally */
-                align-items: center; /* Centers items vertically */
-                text-align: start;
+                align-items: center;
                 flex-direction: column;
                 text-align: center;
             }
@@ -179,8 +170,8 @@
         .feature-icon {
             width: 30px;
             height: 30px;
-            margin-right: 15px;
-            margin-left: 15px;
+            margin-right: 1vw;
+            margin-left: 1vw;
             /* filter: brightness(0) invert(1); */
         }
 
@@ -189,7 +180,7 @@
             font-weight: 700;
             margin-bottom: 20px;
             color: black;
-            text-transform: uppercase;
+            /* text-transform: uppercase; */
         }
 
         .section-subheading {
@@ -200,8 +191,9 @@
         }
 
         .how-it-works {
-            padding: 6vh 20px;
-            background-color: white;
+            /* padding: 6vh 20px; */
+            padding: 3vh 1vh;
+            /* background-color: black; */
             color: black;
             text-align: center;
         }
@@ -425,12 +417,44 @@
             </div>
             <div class="product-section">
                 
-                <h1 class="product-heading">IA Conversacional</h1>
+                <h1 class="product-heading">Desarrollo de chatbot</h1>
                 <h2 class="product-subheading" style="padding-left: 12vw; padding-right: 12vw;">
-                    Nuestro servicio puede manejar conversaciones y tareas complejas de forma autónoma. Logrando automatizar hasta un 90% de tus interacciones diarias.
+                    Esta demostrado que una simple implementacion de un chatbot incrementa en un elevado porcentaje la probabilidad de compra de cada cliente.
 
                 </h2>
-                <div class="card-list">
+                <div class="how-it-works" style="background-color: black;">
+
+                    <div class="section-heading"> 
+                        <ul style="display:grid;grid-template-columns: repeat(2, 1fr);margin-top: 6vh;margin-bottom: 10vh;justify-content: start;justify-items: start;align-items: start;gap: 0% 10vw; margin-left: 5vw; margin-right: 5vw;" >
+                            <li class="feature-item">
+                                <img src="https://i.imgur.com/yHSIico.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 1vw"/>
+                                <span style="color: white;font-size: 18px;font-weight:500;">Integracion con IA, para que las interacciones no sean roboticas.</span>
+                            </li>
+                            <li class="feature-item">
+                                <img src="https://i.imgur.com/yHSIico.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 1vw"/>
+                                <span style="color: white;font-size: 18px;font-weight:500;">Soporte 24/7 y asistencia para todas las necesidades de tus clientes.</span>
+                            </li>
+                            <li class="feature-item">
+                                <img src="https://i.imgur.com/yHSIico.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 1vw"/>
+                                <span style="color: white;font-size: 18px;font-weight:500;">Soporte multilenguaje y multiplataforma.</span>
+                            </li>
+                            <li class="feature-item">
+                                <img src="https://i.imgur.com/yHSIico.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 1vw"/>
+                                <span style="color: white;font-size: 18px;font-weight:500;">Personalización completa para adaptarse a la identidad de tu marca.</span>
+                            </li>
+                            <li class="feature-item">
+                                <img src="https://i.imgur.com/yHSIico.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 1vw"/>
+                                <span style="color: white;font-size: 18px;font-weight:500;">Análisis de datos en tiempo real para mejorar continuamente las respuestas.</span>
+                            </li>
+                            <li class="feature-item">
+                                <img src="https://i.imgur.com/yHSIico.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 1vw"/>
+                                <span style="color: white;font-size: 18px;font-weight:500;">Capaz de retener y exponer informacion seleccionada</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- <div class="card-list">
                     <div class="details-card">
                         <h3>Rotación de personal</h3>
                         <ul class="features-list">
@@ -482,14 +506,71 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
     
             <div class="how-it-works">
                 
-                <h2 class="section-heading" style="background-color: white;color: black; padding-bottom: 10vh;">¿Por qué trabajar con nosotros?</h2>
+                <h2 class="section-heading" style="background-color: white;color: black;">¿Cual es el valor agregado de Elykia?</h2>
                 
-                <ul style="display:grid;grid-template-columns: repeat(2, 1fr);margin-top: 6vh;margin-bottom: 10vh;justify-content: start;justify-items: start;align-items: start;gap:20px" >
+                
+                <div class="how-it-works">
+
+                    <div class="section-heading"> 
+                        <ul style="display:grid;grid-template-columns: repeat(1, 1fr);margin-top: 6vh;margin-bottom: 10vh;justify-content: start;justify-items: start;align-items: start;gap: 0% 10vw; margin-left: 5vw; margin-right: 5vw;" >
+                            <li class="feature-item" style="margin-bottom: 1vh;">
+                                <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 1vw"/>
+                                <span style="color: black;font-size: 22px;font-weight:700;">MEJOR QUE UN HUMANO.</span>
+                                
+                            </li>
+                            <!-- <p style="font-weight: 400;font-size:15px; margin-left: 4.5vw;">Gracias a la integracion con IA, nuestro chatbot es capaz de absorber informacion en cualquier formato, y en base a esta responder de forma inteligente y precisa las 24 horas del dia y de forma inmediata</p> -->
+                             <p style="font-weight: 500;font-size:17px; margin-left: 4.5vw;margin-right: 6vw; text-align: start;margin-bottom: 3vh;">Gracias a la integración con inteligencia artificial nuestro chatbot es capaz de responder de forma inteligente y precisa, basandose en la información provista, las 24 horas del día y de forma inmediata.</p>
+                             <li class="feature-item" style="margin-bottom: 1vh;">
+                                <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 1vw"/>
+                                <span style="color: black;font-size: 22px;font-weight:700;">ESCALABILIDAD.</span>
+                            </li>
+                            <!-- <p style="font-weight: 400;font-size:15px; margin-left: 4.5vw;">Gracias a la integracion con IA, nuestro chatbot es capaz de absorber informacion en cualquier formato, y en base a esta responder de forma inteligente y precisa las 24 horas del dia y de forma inmediata</p> -->
+                             <p style="font-weight: 500;font-size:17px; margin-left: 4.5vw;margin-right: 6vw; text-align: start;margin-bottom: 3vh;">Es capaz de manejar multiples conversaciones simultáneamente sin comprometer la calidad de la respuesta, mientras que al mismo tiempo recopila y analiza los datos de las interacciones para mejorar continuamente el servicio y adaptarse mejor a los usuarios.</p>
+                             <li class="feature-item" style="margin-bottom: 1vh;">
+                                <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 1vw"/>
+                                <span style="color: black;font-size: 22px;font-weight:700;">ADAPTABLE.</span>
+                            </li>
+                            <!-- <p style="font-weight: 400;font-size:15px; margin-left: 4.5vw;">Gracias a la integracion con IA, nuestro chatbot es capaz de absorber informacion en cualquier formato, y en base a esta responder de forma inteligente y precisa las 24 horas del dia y de forma inmediata</p> -->
+                             <p style="font-weight: 500;font-size:17px; margin-left: 4.5vw;margin-right: 6vw; text-align: start;margin-bottom: 3vh;">En caso de contar con acceso a informacion relacionada al usuario, el chatbot es capaz de personalizar la conversacion para mejorar la interaccion o facilitar una venta.</p>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <!-- <div style="flex-direction: column;display: flex;text-align: start;">
+                    <div>
+                        <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
+                        <h3 style="padding-left: 12vw; padding-right: 12vw;font-weight: 400;">
+                            Mejor que un humano
+                        </h3>
+                    </div>
+                    <div style="flex-direction: row; display: flex;">
+                        <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
+                        <h3 style=" padding-right: 12vw;font-weight: 400;">
+                            Mejor que un humano
+                        </h3>
+                    </div>
+                    <div>
+                        <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
+                        <h3 style="padding-left: 12vw; padding-right: 12vw;font-weight: 400;">
+                            Mejor que un humano
+                        </h3>
+                    </div>
+                </div> -->
+                
+                <!-- <ul style="display:grid;grid-template-columns: repeat(2, 1fr);margin-top: 6vh;margin-bottom: 10vh;justify-content: start;justify-items: start;align-items: start;gap: 0% 20vw; " >
                     <li class="feature-item">
                         <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
                         <span style="color: black; font-size: 18px;font-weight:500;">Nuestra prioridad es hacer crecer tu negocio, no hacer software.</span>
@@ -514,13 +595,12 @@
                         <img src="https://i.imgur.com/uAx9MVb.png" alt="Feature Icon" class="feature-icon" style="width: 5vh;height: auto;margin-right: 0.4vw"/>
                         <span style="color: black;font-size: 18px;font-weight:500;">Enfoque multicanal (Voz, Email, SMS, Whatsapp, etc.)</span>
                     </li>
-                </ul>
+                </ul> -->
             </div>
     
             <!-- Testimonials Section -->
-            <div class="testimonials">
+            <!-- <div class="testimonials">
                 <h2 class="section-heading" style="color: white;">Preguntas frecuentes</h2>
-                <!-- <p class="section-subheading">R.</p> -->
                 <div style="display: flex; flex-direction: row; justify-content: space-around;padding-left: 3vw; padding-right: 5vw;">
                 
                 <div class="parent-container">
@@ -558,7 +638,7 @@
                     </ul>
                   </div>
                 </div>
-            </div>
+            </div> -->
     
             <div class="cta-section" style="display: flex; flex-direction: column; justify-items: center;justify-content: center;">
                 <h2 class="section-heading">Querés saber más?</h2>
